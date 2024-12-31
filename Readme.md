@@ -1,1 +1,1 @@
-### Kicad library conventer
+### WHS Kicad libraries
