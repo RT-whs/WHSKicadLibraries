@@ -8,3 +8,8 @@ Is used for library of symbols and footprints.
 ## Folder template
 Used for base WHS Kicad project. 
 
+## Git update
+
+Add all changes to commit: git add .
+Commit: git commit -m"Commit text"
+Push to server: git push
