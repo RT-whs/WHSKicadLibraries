@@ -1,0 +1,204 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+(symbol "SML-LXFT0603GC-TR" (in_bom yes) (on_board yes) (pin_names hide)
+    (property "Reference" "LED" (at 12.7 8.89 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+(property "Value" "SML-LXFT0603GC-TR" (at 12.7 6.35 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+(property "Footprint" "whs_led:SMLLXFT0603GCTR" (at 12.7 -93.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+(property "Datasheet" "https://www.lumex.com/spec/SML-LXFT0603GC-TR.pdf" (at 12.7 -193.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+(property "ki_description" "Standard LEDs - SMD 1.6mmx.8mm SMT LED Grn 565nm Wtr Clr" (at 12.7 -293.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+(property "Height" "0.877" (at 12.7 -393.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+(property "Mouser Part Number" "696-LXFT0603GC-TR" (at 12.7 -493.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumex/SML-LXFT0603GC-TR?qs=26yrLECgo49G751leQuXdw%3D%3D" (at 12.7 -593.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+(property "Manufacturer_Name" "Lumex" (at 12.7 -693.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+(property "Manufacturer_Part_Number" "SML-LXFT0603GC-TR" (at 12.7 -793.65 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+(property "ERP" "320/000102"
+    (at 0 0 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+    )
+)
+(property "ERP_Title1_czech" "Led zelená 0603"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title2_english" "Led green 0603"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title3_Type" "SML-LXFT0603GC-TR"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title4_OrderNr" "SML-LXFT0603GC-TR"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Supplier_Name" "Erp suplier name"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Manufacturer_Name" "Erp producer name"
+    (at 19.05 -694.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (justify left top)
+        (hide yes)
+    )
+)
+(property "ERP_link1" "https://www.mouser.in/ProductDetail/Lumex/SML-LXFT0603GC-TR?qs=26yrLECgo49G751leQuXdw%3D%3D"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_link2" ""
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Summaries" ""
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+    (polyline
+      (pts
+        (xy 5.08 2.54)
+        (xy 5.08 -2.54)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 6.35 2.54)
+        (xy 3.81 5.08)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 8.89 2.54)
+        (xy 6.35 5.08)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 2.54 0)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 10.16 0)
+        (xy 12.7 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type none))
+    )
+    (polyline
+      (pts
+        (xy 5.08 0)
+        (xy 10.16 2.54)
+        (xy 10.16 -2.54)
+        (xy 5.08 0)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type outline))
+    )
+    (polyline
+      (pts
+        (xy 5.334 4.318)
+        (xy 4.572 3.556)
+        (xy 3.81 5.08)
+        (xy 5.334 4.318)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type outline))
+    )
+    (polyline
+      (pts
+        (xy 7.874 4.318)
+        (xy 7.112 3.556)
+        (xy 6.35 5.08)
+        (xy 7.874 4.318)
+      )
+      (stroke (width 0.254) (type default))
+      (fill (type outline))
+    )
+    (pin passive line (at 0 0 0) (length 2.54)
+      (name "K" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 15.24 0 180) (length 2.54)
+      (name "A" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+  ))

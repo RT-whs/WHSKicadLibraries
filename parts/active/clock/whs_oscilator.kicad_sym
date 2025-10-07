@@ -1,0 +1,428 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+(symbol "ASCODV-24.000MHz-LR-T3" (in_bom yes) (on_board yes)
+    (property "Reference" "Y" (at 34.29 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+(property "Value" "ASCODV-24.000MHz-LR-T3" (at 34.29 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+(property "Footprint" "whs_oscilator:ASCODV24000MHzLRT3" (at 34.29 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Datasheet" "https://abracon.com/datasheets/ASCODV.pdf" (at 34.29 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "ki_description" "CONTINUOUS VOLTAGE SMD CRYSTAL OSCILLATOR" (at 34.29 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Height" "0.8" (at 34.29 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Mouser Part Number" "815-ASCODV-24.00LRT3" (at 34.29 -494.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ASCODV-24.000MHz-LR-T3?qs=ulEaXIWI0c%2FIRLeg8YCLgQ%3D%3D" (at 34.29 -594.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Manufacturer_Name" "ABRACON" (at 34.29 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Manufacturer_Part_Number" "ASCODV-24.000MHz-LR-T3" (at 34.29 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "ERP" "320/000083"
+    (at 0 0 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+    )
+)
+(property "ERP_Title1_czech" "Oscilátor 24MHz"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title2_english" "Oscilator 24MHz"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title3_Type" "ASCODV-24.000MHz-LR-T3"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title4_OrderNr" "ASCODV-24.000MHz-LR-T3"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Supplier_Name" "Erp suplier name"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Manufacturer_Name" "Erp producer name"
+    (at 19.05 -694.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (justify left top)
+        (hide yes)
+    )
+)
+(property "ERP_link1" "https://cz.mouser.com/ProductDetail/ABRACON/ASCODV-24.000MHz-LR-T3?qs=ulEaXIWI0c%2FIRLeg8YCLgQ%3D%3D"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_link2" ""
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Summaries" "CONTINUOUS VOLTAGE SMD CRYSTAL OSCILLATOR 24 MHz 0.063 L x 0.047 W (1.6mm x 1.2mm)"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+    (rectangle
+      (start 5.08 2.54)
+      (end 33.02 -5.08)
+      (stroke (width 0.254) (type default))
+      (fill (type background))
+    )
+    (pin passive line (at 0 -2.54 0) (length 5.08)
+      (name "TRI-STATE" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 38.1 -2.54 180) (length 5.08)
+      (name "GND" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 38.1 0 180) (length 5.08)
+      (name "OUTPUT" (effects (font (size 1.27 1.27))))
+      (number "3" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "VDD" (effects (font (size 1.27 1.27))))
+      (number "4" (effects (font (size 1.27 1.27))))
+    )
+  )(symbol "DSC6111HI1B-032K768B" (in_bom yes) (on_board yes)
+    (property "Reference" "Y" (at 26.67 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+(property "Value" "DSC6111HI1B-032K768B" (at 26.67 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+(property "Footprint" "whs_oscilator:DSC6111HI1B032K768B" (at 26.67 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/TCG/ProductDocuments/DataSheets/DSC61xxB-Ultra-Small-Ultra-Low-Power-MEMS-Oscillator-DS20006155.pdf" (at 26.67 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "ki_description" "Standard Clock Oscillators MEMS OSC, LVCMOS, 32.768KHz, 50PPM, 1.8-3.3V, -40 to 85C, 1.6 x 1.2mm" (at 26.67 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Height" "0.89" (at 26.67 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Manufacturer_Name" "Microchip" (at 26.67 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Manufacturer_Part_Number" "DSC6111HI1B-032K768B" (at 26.67 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "ERP" "320/000084"
+    (at 0 0 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+    )
+)
+(property "ERP_Title1_czech" "Oscilátor 32.768KHz"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title2_english" "Oscillator 32.768KHz"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title3_Type" "DSC6111HI1B-032K768B"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title4_OrderNr" "DSC6111HI1B-032K768B"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Supplier_Name" "Erp suplier name"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Manufacturer_Name" "Erp producer name"
+    (at 19.05 -694.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (justify left top)
+        (hide yes)
+    )
+)
+(property "ERP_link1" "https://cz.mouser.com/ProductDetail/Microchip-Technology/DSC6111HI1B-032K768B?qs=3GbUB62Nf7d%252BJ%2FL6dtSBrQ%3D%3D"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_link2" ""
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Summaries" "Standard Clock Oscillators MEMS OSC, LVCMOS, 32.768KHz, 50PPM, 1.8-3.3V, -40 to 85C, 1.6 x 1.2mm"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+    (rectangle
+      (start 5.08 2.54)
+      (end 25.4 -5.08)
+      (stroke (width 0.254) (type default))
+      (fill (type background))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "~{STDBY}" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -2.54 0) (length 5.08)
+      (name "GND" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 30.48 -2.54 180) (length 5.08)
+      (name "OUT" (effects (font (size 1.27 1.27))))
+      (number "3" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 30.48 0 180) (length 5.08)
+      (name "VDD" (effects (font (size 1.27 1.27))))
+      (number "4" (effects (font (size 1.27 1.27))))
+    )
+  )(symbol "ASCODV-25.000MHz-LR-T3" (in_bom yes) (on_board yes)
+    (property "Reference" "Y" (at 34.29 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+(property "Value" "ASCODV-25.000MHz-LR-T3" (at 34.29 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+(property "Footprint" "whs_oscilator:ASCODV25000MHzLRT3" (at 34.29 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Datasheet" "https://abracon.com/datasheets/ASCODV.pdf" (at 34.29 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "ki_description" "25 MHz XO (Standard) HCMOS, LVCMOS Oscillator 1.8V, 2.5V, 3.3V Enable/Disable 4-SMD, No Lead " (at 34.29 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Height" "0.8" (at 34.29 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Mouser Part Number" "815-ASCODV-25.00LRT3" (at 34.29 -494.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/ASCODV-25.000MHz-LR-T3?qs=ulEaXIWI0c9nL4NWWi8yVg%3D%3D" (at 34.29 -594.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Manufacturer_Name" "ABRACON" (at 34.29 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Manufacturer_Part_Number" "ASCODV-25.000MHz-LR-T3" (at 34.29 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "ERP" "320/000086"
+    (at 0 0 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+    )
+)
+(property "ERP_Title1_czech" "Oscilátor 25MHz"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title2_english" "Oscillator 25MHz"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title3_Type" "ASCODV-25.000MHz-LR-T3"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title4_OrderNr" "ASCODV-25.000MHz-LR-T3"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Supplier_Name" "Erp suplier name"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Manufacturer_Name" "Erp producer name"
+    (at 19.05 -694.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (justify left top)
+        (hide yes)
+    )
+)
+(property "ERP_link1" "https://cz.mouser.com/ProductDetail/ABRACON/ASCODV-25.000MHz-LR-T3?qs=ulEaXIWI0c9nL4NWWi8yVg%3D%3D"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_link2" ""
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Summaries" "Standard Clock Oscillators CONTINUOUS VOLTAGE SMD CRYSTAL OSCILLATOR 25 MHz"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+    (rectangle
+      (start 5.08 2.54)
+      (end 33.02 -5.08)
+      (stroke (width 0.254) (type default))
+      (fill (type background))
+    )
+    (pin passive line (at 0 -2.54 0) (length 5.08)
+      (name "TRI-STATE" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 38.1 -2.54 180) (length 5.08)
+      (name "GND" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 38.1 0 180) (length 5.08)
+      (name "OUTPUT" (effects (font (size 1.27 1.27))))
+      (number "3" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "VDD" (effects (font (size 1.27 1.27))))
+      (number "4" (effects (font (size 1.27 1.27))))
+    )
+  ))

@@ -1,0 +1,261 @@
+(footprint "SHDRRA3W80P0X350_1X3_1190X920X825P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1844223")
+	(tags "Connector")
+	(property "Reference" "J3"
+		(at -4.12 -0.225 0)
+		(layer "F.SilkS")
+		(uuid "f46b1a38-45d1-447e-8324-5cf18006fb0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MC_1,5_3-G-3,5"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e4a8c05c-812f-409d-af30-0043da70779e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9b0691d-8a38-42f7-aa49-3360c298e5e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Svorkovnice, Header, 3.5 mm, 3 Cest, 8 A, 300 V, Skrz Desku Pravoúhlý"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59db8e33-7e0b-45ac-9967-70ab8fbed5ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ERP" "300/000002"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "540e24a0-a483-4a91-8b2c-d8745e7b29ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Order Code" "2776330"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67045f7f-da08-4194-99e3-1ad8b6074257")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Producer " "Phoenix Contact"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5397e210-0cf8-4c16-9495-200b186063b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "MC 1,5/ 3-G-3,5"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a12bd1f-27da-4097-87ff-3cdd7d793479")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.45 -8)
+		(end 9.45 -8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "942c23f3-dd4e-4cdc-9035-740ea3d9599d")
+	)
+	(fp_line
+		(start -2.45 0)
+		(end -2.45 -8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6bb7b08-47ed-422c-946e-d4c9ef52abb2")
+	)
+	(fp_line
+		(start 9.45 -8)
+		(end 9.45 1.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "906fcd30-26c3-42ad-a249-02084a64797b")
+	)
+	(fp_line
+		(start -2.7 -8.25)
+		(end -2.7 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "166c57e9-0a29-4646-9fb1-5a7901cee611")
+	)
+	(fp_line
+		(start -2.7 1.45)
+		(end 9.7 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a2ff446-3c8f-4341-b970-6ee8bddbd164")
+	)
+	(fp_line
+		(start 9.7 -8.25)
+		(end -2.7 -8.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d448ab42-daf3-40d2-94fb-c4cbb8d57cfa")
+	)
+	(fp_line
+		(start 9.7 1.45)
+		(end 9.7 -8.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e48a9071-8257-4634-a74f-b412bce17ef9")
+	)
+	(fp_line
+		(start -2.45 -8)
+		(end 9.45 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60bedf2a-30b6-443c-a237-caf281225079")
+	)
+	(fp_line
+		(start -2.45 1.2)
+		(end -2.45 -8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ab583a4-7c01-46a1-b76e-c5488cdb07f3")
+	)
+	(fp_line
+		(start 9.45 -8)
+		(end 9.45 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7875407b-4d80-48a5-b6bf-37ffa2563547")
+	)
+	(fp_line
+		(start 9.45 1.2)
+		(end -2.45 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1e301801-a6ea-4067-b9b4-fe122cb77147")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e952cbf0-db6f-44be-9e24-58208e023720")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.025 2.025)
+		(drill 1.35)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f58e32d-4d5f-46f5-a041-3ccc0840e259")
+	)
+	(pad "2" thru_hole circle
+		(at 3.5 0)
+		(size 2.025 2.025)
+		(drill 1.35)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "34674d86-2fc8-4553-abd4-a1cf4c0bb3fb")
+	)
+	(pad "3" thru_hole circle
+		(at 7 0)
+		(size 2.025 2.025)
+		(drill 1.35)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6bd763bf-7c84-4633-a4b5-4485c3a5fb50")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\rt\\Documents\\KnihovnyKiCad\\LibraryLoader2\\SamacSys_Parts.3dshapes\\1844223.stp"
+		(offset
+			(xyz 7 -1.2 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

@@ -1,0 +1,502 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "924"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "XD"
+			(at 19.05 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "924"
+			(at 19.05 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "whs_dataConnectors:924"
+			(at 19.05 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p99.pdf"
+			(at 19.05 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Connectors USB PC JACK B-TYPE"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.6"
+			(at 19.05 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-924"
+			(at 19.05 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/924?qs=811De8TLL%252BekQqyktxg3yA%3D%3D"
+			(at 19.05 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 19.05 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "924"
+			(at 19.05 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "ERP" "320/000077"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ERP_Title1_czech" "Usb konektor pcb B-Type"
+			(at 19.05 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ERP_Title2_english" "USB Connector PCB JACK B-TYPE"
+			(at 19.05 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ERP_Title3_Type" "Keystone-924"
+			(at 19.05 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ERP_Title4_OrderNr" "534-924"
+			(at 19.05 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ERP_Supplier_Name" "Erp suplier name"
+			(at 19.05 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ERP_Manufacturer_Name" "Erp producer name"
+			(at 19.05 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "ERP_link1" "https://www.mouser.in/ProductDetail/Keystone-Electronics/924?qs=811De8TLL%252BekQqyktxg3yA%3D%3D"
+			(at 19.05 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ERP_link2" ""
+			(at 19.05 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ERP_Summaries" ""
+			(at 19.05 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "924_1_1"
+			(rectangle
+				(start 5.08 2.54)
+				(end 17.78 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "D-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "D+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 0 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -2.54 180)
+				(length 5.08)
+				(name "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -5.08 180)
+				(length 5.08)
+				(name "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "TMJUCHW0021102420" (in_bom yes) (on_board yes)
+    (property "Reference" "J" (at 29.21 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+(property "Value" "TMJUCHW0021102420" (at 29.21 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+(property "Footprint" "whs_dataConnectors:TMJUCHW0021102420" (at 29.21 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Datasheet" "https://www.taoglas.com/datasheets/TMJUCHW0021102420.pdf" (at 29.21 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "ki_description" "Modular Connectors / Ethernet Connectors CONN JACK 1PORT 100 BASE-T" (at 29.21 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Height" "13.88" (at 29.21 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Mouser Part Number" "960-TMJUCHW002110242" (at 29.21 -494.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Taoglas/TMJUCHW0021102420?qs=1Kr7Jg1SGW8YnzK2urmxaQ%3D%3D" (at 29.21 -594.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Manufacturer_Name" "Taoglas" (at 29.21 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Manufacturer_Part_Number" "TMJUCHW0021102420" (at 29.21 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "ERP" "320/000088"
+    (at 0 0 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+    )
+)
+(property "ERP_Title1_czech" "RJ45 smd s magnety a led, CAT6"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title2_english" "RJ45 smd with magnetics and led, CAT6"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title3_Type" "TMJUCHW0021102420"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title4_OrderNr" "TMJUCHW0021102420"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Supplier_Name" "Erp suplier name"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Manufacturer_Name" "Erp producer name"
+    (at 19.05 -694.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (justify left top)
+        (hide yes)
+    )
+)
+(property "ERP_link1" "https://cz.mouser.com/ProductDetail/Taoglas/TMJUCHW0021102420?qs=1Kr7Jg1SGW8YnzK2urmxaQ%3D%3D"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_link2" ""
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Summaries" "Ethernet Connectors CONN JACK 1PORT 100 BASE-T"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+    (rectangle
+      (start 5.08 2.54)
+      (end 27.94 -30.48)
+      (stroke (width 0.254) (type default))
+      (fill (type background))
+    )
+    (pin passive line (at 33.02 -22.86 180) (length 5.08)
+      (name "TD_+" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 33.02 -20.32 180) (length 5.08)
+      (name "TD-" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 33.02 -17.78 180) (length 5.08)
+      (name "CT_1" (effects (font (size 1.27 1.27))))
+      (number "3" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 33.02 -15.24 180) (length 5.08)
+      (name "CT_2" (effects (font (size 1.27 1.27))))
+      (number "4" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 33.02 -12.7 180) (length 5.08)
+      (name "RD+" (effects (font (size 1.27 1.27))))
+      (number "5" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 33.02 -10.16 180) (length 5.08)
+      (name "RD-" (effects (font (size 1.27 1.27))))
+      (number "6" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 33.02 -7.62 180) (length 5.08)
+      (name "7" (effects (font (size 1.27 1.27))))
+      (number "7" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 33.02 -5.08 180) (length 5.08)
+      (name "GND" (effects (font (size 1.27 1.27))))
+      (number "8" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 33.02 -27.94 180) (length 5.08)
+      (name "A_YELLOW" (effects (font (size 1.27 1.27))))
+      (number "9" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 33.02 -25.4 180) (length 5.08)
+      (name "K_YELLOW" (effects (font (size 1.27 1.27))))
+      (number "10" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 33.02 -2.54 180) (length 5.08)
+      (name "K_GREEN" (effects (font (size 1.27 1.27))))
+      (number "11" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 33.02 0 180) (length 5.08)
+      (name "A_GREEN" (effects (font (size 1.27 1.27))))
+      (number "12" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -2.54 0) (length 5.08)
+      (name "MP1" (effects (font (size 1.27 1.27))))
+      (number "MP1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "MP2" (effects (font (size 1.27 1.27))))
+      (number "MP2" (effects (font (size 1.27 1.27))))
+    )
+  ))
