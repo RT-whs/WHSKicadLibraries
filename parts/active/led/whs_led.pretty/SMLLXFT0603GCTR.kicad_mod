@@ -1,33 +1,213 @@
-(module "SMLLXFT0603GCTR" (layer F.Cu)
-  (descr "SML-LXFT0603GC-TR-2")
-  (tags "LED")
-  (attr smd)
-  (fp_text reference LED** (at 0.000 -0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "SMLLXFT0603GCTR" (at 0.000 -0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.225 -1.4) (end 2.225 -1.4) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 2.225 -1.4) (end 2.225 1.4) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 2.225 1.4) (end -2.225 1.4) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -2.225 1.4) (end -2.225 -1.4) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -1.8 -0) (end -1.8 -0) (layer F.SilkS) (width 0.1))
-  (fp_line (start -1.7 -0) (end -1.7 -0) (layer F.SilkS) (width 0.1))
-  (fp_arc (start -1.75 -0) (end -1.800 -0) (angle -180) (layer F.SilkS) (width 0.1))
-  (fp_arc (start -1.75 -0) (end -1.700 -0) (angle -180) (layer F.SilkS) (width 0.1))
-  (pad 1 smd rect (at -0.825 -0 0) (size 0.800 0.800) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.825 -0 0) (size 0.800 0.800) (layers F.Cu F.Paste F.Mask))
-  (model "C:/WHS_Kicad_Libraries/parts/active/led/whs_led.3dshapes/SML-LXFT0603GC-TR.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SMLLXFT0603GCTR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SML-LXFT0603GC-TR-2")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at 0 1.5 0)
+		(layer "F.SilkS")
+		(uuid "fb451e78-fed2-4ccf-90ca-6d71d8b8263c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.154)
+			)
+		)
+	)
+	(property "Value" "SMLLXFT0603GCTR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1fda84bb-a19f-4bc2-aef7-a54e733a9cbe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ab7402d-f56a-41f2-9fbe-13dee91e6203")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "211acf7c-97b3-477f-9e9f-7bca04971d7c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8 0)
+		(end -1.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6579ac23-8633-49f6-a468-29527253a7f3")
+	)
+	(fp_line
+		(start -1.7 0)
+		(end -1.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a7a8cab-199a-47c2-b485-031e1827f490")
+	)
+	(fp_arc
+		(start -1.8 0)
+		(mid -1.75 -0.05)
+		(end -1.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42788fcf-c7c7-4fdb-b00b-399d4b36575b")
+	)
+	(fp_arc
+		(start -1.7 0)
+		(mid -1.75 0.05)
+		(end -1.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f481cab2-98f1-4fb4-98d5-973f7eb2a4d9")
+	)
+	(fp_line
+		(start -2.225 -1.4)
+		(end 2.225 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75544283-ac14-4bd6-b211-e11efe5ec708")
+	)
+	(fp_line
+		(start -2.225 1.4)
+		(end -2.225 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "25c7c2fb-bdc2-4674-b481-6b210f0b9182")
+	)
+	(fp_line
+		(start 2.225 -1.4)
+		(end 2.225 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "950eee8d-c507-4e7b-a7ac-b76632ca8b9e")
+	)
+	(fp_line
+		(start 2.225 1.4)
+		(end -2.225 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b6cddee-cfa3-44f4-b8b2-5ab376487e3e")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4b0a74d-508d-461f-aff8-9201dd77833e")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8e50382-82fb-4c22-ad3e-e990051148b8")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b62d9665-edef-4c11-8a93-20e22a477444")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "703775fb-a740-4bf3-b959-a1c43a04dacb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2c7a2e86-fcd6-48af-99de-bdecbcd272c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.825 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0529476-8250-4cc4-8888-e3e23b7780bc")
+	)
+	(pad "2" smd rect
+		(at 0.825 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6cc85497-178f-400f-8d35-b61ef406877c")
+	)
+	(embedded_fonts no)
+	(model "C:/WHS_Kicad_Libraries/parts/active/led/whs_led.3dshapes/SML-LXFT0603GC-TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

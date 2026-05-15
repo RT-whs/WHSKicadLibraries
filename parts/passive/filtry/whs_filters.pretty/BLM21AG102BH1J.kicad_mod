@@ -1,30 +1,181 @@
-(module "BLM21AG102BH1J" (layer F.Cu)
-  (descr "BLM21_3 L=2.0 W=1.25 T=0.85")
-  (tags "Filter")
-  (attr smd)
-  (fp_text reference FL** (at 0.000 -0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "BLM21AG102BH1J" (at 0.000 -0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1 -0.625) (end 1 -0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start 1 -0.625) (end 1 0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start 1 0.625) (end -1 0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -1 0.625) (end -1 -0.625) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.2 -1.625) (end 2.2 -1.625) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 2.2 -1.625) (end 2.2 1.625) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 2.2 1.625) (end -2.2 1.625) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -2.2 1.625) (end -2.2 -1.625) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 0 -0.525) (end 0 0.525) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -0.900 -0 0) (size 0.600 1.250) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.900 -0 0) (size 0.600 1.250) (layers F.Cu F.Paste F.Mask))
-  (model "C:/WHS_Kicad_Libraries/parts/passive/filtry/whs_filters.3dshapes/BLM21AG121SN1D.stp"
-    (at (xyz -0.039370078740157 0 0.016929134139864))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "BLM21AG102BH1J"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BLM21_3 L=2.0 W=1.25 T=0.85")
+	(tags "Filter")
+	(property "Reference" "FL**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "4d39ea0d-6b38-4c6c-acc3-0387fec936ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.154)
+			)
+		)
+	)
+	(property "Value" "BLM21AG102BH1J"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c5cc7307-8fe5-4fc1-9faf-3a8e22a460a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11cc1728-6ffd-41e1-a601-9969e145ddcd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "880e2ddc-31fa-46c5-8f44-db38d4d1da63")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.525)
+		(end 0 0.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e40c71a-ff33-41d2-94ef-340aa9a2f204")
+	)
+	(fp_line
+		(start -2.2 -1.625)
+		(end 2.2 -1.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5288f3fe-d483-44cf-99f8-f22c8c2ff88d")
+	)
+	(fp_line
+		(start -2.2 1.625)
+		(end -2.2 -1.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43dbc18d-ec59-4bcb-8cb6-7567fd0b3429")
+	)
+	(fp_line
+		(start 2.2 -1.625)
+		(end 2.2 1.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "72e9dfc4-4487-46cd-86a1-65e0d5165235")
+	)
+	(fp_line
+		(start 2.2 1.625)
+		(end -2.2 1.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b3e7f68-9d56-458d-9bf1-2cb370c2139c")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd063eb7-a23d-4e78-a434-f983224afdf5")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d205f06-981c-4fce-af94-1b2efd503e05")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "988dc8b2-d41d-4c26-b1d2-b0740831a3f2")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e18ceb79-77f6-4ede-9038-e09e22d4008b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ddf79423-45a8-45d1-9ae5-00b2166bbc4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 0)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4a93f9d9-d0d7-4b56-836b-f07c919c4ea9")
+	)
+	(pad "2" smd rect
+		(at 0.9 0)
+		(size 0.6 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f26190dd-0910-4e7e-bd7f-2667f273674c")
+	)
+	(embedded_fonts no)
+	(model "C:/WHS_Kicad_Libraries/parts/passive/filtry/whs_filters.3dshapes/BLM21AG121SN1D.stp"
+		(offset
+			(xyz -0.999999985 0 0.4300000007)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
