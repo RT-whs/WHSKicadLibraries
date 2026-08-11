@@ -1,0 +1,164 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+(symbol "LM393ST" (in_bom yes) (on_board yes)
+    (property "Reference" "IC" (at 24.13 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+(property "Value" "LM393ST" (at 24.13 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+(property "Footprint" "whs_logicIC:SOP65P490X110-8N" (at 24.13 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm193.pdf" (at 24.13 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "ki_description" "LM393ST STMicroelectronics, Dual Comparator, CMOS/TTL O/P, 1.3us 2  36 V 8-Pin MSOP" (at 24.13 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Height" "1.1" (at 24.13 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Mouser Part Number" "511-LM393ST" (at 24.13 -494.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LM393ST?qs=%252B9pWl1iD4MVo9IbOqrS1og%3D%3D" (at 24.13 -594.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Manufacturer_Name" "STMicroelectronics" (at 24.13 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Manufacturer_Part_Number" "LM393ST" (at 24.13 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "ERP" "320/000126"
+    (at 0 0 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+    )
+)
+(property "ERP_Title1_czech" "Komparátor analogový 2 kanály, differenční, 2-36V"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title2_english" "Comparator analog 2ch, diff, 2-36V"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title3_Type" "LM393ST"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title4_OrderNr" "LM393ST"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Supplier_Name" ""
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Manufacturer_Name" ""
+    (at 19.05 -694.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (justify left top)
+        (hide yes)
+    )
+)
+(property "ERP_link1" "https://cz.mouser.com/cs/ProductDetail/STMicroelectronics/LM393ST?qs=%252B9pWl1iD4MVo9IbOqrS1og%3D%3D"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_link2" ""
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Summaries" "MiniSO-8"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+    (rectangle
+      (start 5.08 2.54)
+      (end 22.86 -10.16)
+      (stroke (width 0.254) (type default))
+      (fill (type background))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "OUT1" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -2.54 0) (length 5.08)
+      (name "IN1-" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -5.08 0) (length 5.08)
+      (name "IN1+" (effects (font (size 1.27 1.27))))
+      (number "3" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -7.62 0) (length 5.08)
+      (name "VCC-" (effects (font (size 1.27 1.27))))
+      (number "4" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 27.94 0 180) (length 5.08)
+      (name "VCC+" (effects (font (size 1.27 1.27))))
+      (number "8" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 27.94 -2.54 180) (length 5.08)
+      (name "OUT2" (effects (font (size 1.27 1.27))))
+      (number "7" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 27.94 -5.08 180) (length 5.08)
+      (name "IN2-" (effects (font (size 1.27 1.27))))
+      (number "6" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 27.94 -7.62 180) (length 5.08)
+      (name "IN2+" (effects (font (size 1.27 1.27))))
+      (number "5" (effects (font (size 1.27 1.27))))
+    )
+  ))

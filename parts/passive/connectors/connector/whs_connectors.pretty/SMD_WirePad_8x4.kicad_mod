@@ -1,0 +1,118 @@
+(footprint "SMD_WirePad_8x4"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Wire"
+		(at 0.5 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9e03cc72-c1d0-459c-af06-83627f1a80d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMD_WirePad_8x4"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6c17ef28-24e5-42f3-91ae-9b29f9845ae6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "430dd698-eaf9-491b-b7c7-ec8e1db37c94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aed3c878-3b5c-46ef-80ac-409f77d8e6d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Wire" "Wire"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "0826c444-fef0-433b-9dc8-65c236e0a739")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4 -2)
+		(end 4 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1524a4fd-6417-4b1d-becf-5aab42e39dd6")
+	)
+	(fp_line
+		(start 4 -2)
+		(end 4 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "11b2ca0f-37b4-4105-af80-b1b6c6345b41")
+	)
+	(fp_line
+		(start 4 2)
+		(end -4 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "68d88861-2e06-4af0-8091-c27315b693a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "083c142d-c7be-4ec8-808c-b6cad461c54e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 8 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c836a629-5fab-45c6-9915-439160846ef5")
+	)
+	(embedded_fonts no)
+)

@@ -324,4 +324,153 @@
       (name "FB" (effects (font (size 1.27 1.27))))
       (number "5" (effects (font (size 1.27 1.27))))
     )
+  )(symbol "AP7583Q-50FDZW-7" (in_bom yes) (on_board yes)
+    (property "Reference" "IC" (at 26.67 7.62 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+(property "Value" "AP7583Q-50FDZW-7" (at 26.67 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+(property "Footprint" "whs_voltageReg:AP7583Q50FDZW7" (at 26.67 -94.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP7583Q-50FDZW-7/17736647" (at 26.67 -194.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "ki_description" "Linear Voltage Regulator IC Positive Fixed 1 Output 300mA W-DFN2020-6 (SWP) (Type A1)" (at 26.67 -294.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Height" "0.8" (at 26.67 -394.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Manufacturer_Name" "Diodes Incorporated" (at 26.67 -694.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "Manufacturer_Part_Number" "AP7583Q-50FDZW-7" (at 26.67 -794.92 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+(property "ERP" "320/000110"
+    (at 0 0 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+    )
+)
+(property "ERP_Title1_czech" "Regulátor napětí 5V LDO"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title2_english" "Regulator voltage 5V LDO"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title3_Type" "AP7583Q-50FDZW-7"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Title4_OrderNr" "621-AP7583Q-50FDZW-7"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Supplier_Name" "Mouser Electronics Czech, s.r.o."
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Manufacturer_Name" "Mouser Electronics Czech, s.r.o."
+    (at 19.05 -694.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (justify left top)
+        (hide yes)
+    )
+)
+(property "ERP_link1" "https://cz.mouser.com/cs/ProductDetail/Diodes-Incorporated/AP7583Q-50FDZW-7?qs=rQFj71Wb1eXV6peq3c9ozw%3D%3D"
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_link2" ""
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+(property "ERP_Summaries" "Regulátory napětí s nízkým úbytkem (LDO) 300mA LDO High Voltage Standard W-DFN2020-6 T&R 3K, Vin=3-42V "
+    (at 19.05 -594.92 0)
+    (effects
+        (font
+            (size 1.27 1.27)
+        )
+      (hide yes)
+   )
+)
+    (rectangle
+      (start 5.08 2.54)
+      (end 25.4 -10.16)
+      (stroke (width 0.254) (type default))
+      (fill (type background))
+    )
+    (pin passive line (at 0 0 0) (length 5.08)
+      (name "VIN" (effects (font (size 1.27 1.27))))
+      (number "1" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -2.54 0) (length 5.08)
+      (name "EN" (effects (font (size 1.27 1.27))))
+      (number "2" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -5.08 0) (length 5.08)
+      (name "GND" (effects (font (size 1.27 1.27))))
+      (number "3" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 0 -7.62 0) (length 5.08)
+      (name "FB/NC" (effects (font (size 1.27 1.27))))
+      (number "4" (effects (font (size 1.27 1.27))))
+    )
+    (pin no_connect line (at 30.48 0 180) (length 5.08)
+      (name "NC" (effects (font (size 1.27 1.27))))
+      (number "5" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 30.48 -2.54 180) (length 5.08)
+      (name "VOUT" (effects (font (size 1.27 1.27))))
+      (number "6" (effects (font (size 1.27 1.27))))
+    )
+    (pin passive line (at 30.48 -5.08 180) (length 5.08)
+      (name "EP" (effects (font (size 1.27 1.27))))
+      (number "7" (effects (font (size 1.27 1.27))))
+    )
   ))
